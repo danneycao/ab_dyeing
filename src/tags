@@ -1,0 +1,195 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABDyeingHandler	./dyeing_handler.cc	/^ABDyeingHandler::ABDyeingHandler() {$/;"	f	class:inv::ABDyeingHandler
+ABDyeingHandler	./dyeing_handler.h	/^class ABDyeingHandler : public inveno::ABDyeingServiceIf {$/;"	c	namespace:inv
+BatchDyeing	./dyeing_handler.cc	/^void ABDyeingHandler::BatchDyeing(inveno::ABDyeingBatchReply& _return, $/;"	f	class:inv::ABDyeingHandler
+BatchDyeingLan	./dyeing_handler.cc	/^void ABDyeingHandler::BatchDyeingLan(inveno::ABDyeingBatchReply& _return,$/;"	f	class:inv::ABDyeingHandler
+ClearThread	./fresh_kafka.cc	/^    explicit ClearThread(DyeingCurrentFresh* owner, const std::string& fresh_hour)$/;"	f	class:inv::ClearThread
+ClearThread	./fresh_kafka.cc	/^class ClearThread : public INV_Thread {$/;"	c	namespace:inv	file:
+ConfIdInfo	./online_hash.h	/^    struct ConfIdInfo{$/;"	s	class:inv::DyeingOnlinePlugin
+DISALLOW_COPY_AND_ASSIGN	./ab_def.h	24;"	d
+DyeingCurrentFresh	./fresh_kafka.cc	/^DyeingCurrentFresh::DyeingCurrentFresh(const std::string& conf_path, kafkaFreshQueue* kq)$/;"	f	class:inv::DyeingCurrentFresh
+DyeingCurrentFresh	./fresh_kafka.h	/^class DyeingCurrentFresh$/;"	c	namespace:inv
+DyeingFreshUserPlugin	./fresh_user.h	/^	explicit DyeingFreshUserPlugin(const std::string& prefix)$/;"	f	class:inv::DyeingFreshUserPlugin
+DyeingFreshUserPlugin	./fresh_user.h	/^class DyeingFreshUserPlugin {$/;"	c	namespace:inv
+DyeingLan	./dyeing_handler.cc	/^void ABDyeingHandler::DyeingLan(inveno::ABDyeingReply& reply, const std::string& uid,$/;"	f	class:inv::ABDyeingHandler
+DyeingLogic	./dyeing_logic.cc	/^DyeingLogic::DyeingLogic(ABDyeingHandler* owner, kafkaFreshQueue* kq)$/;"	f	class:inv::DyeingLogic
+DyeingLogic	./dyeing_logic.h	/^class DyeingLogic {$/;"	c	namespace:inv
+DyeingOnlinePlugin	./online_hash.cc	/^DyeingOnlinePlugin::DyeingOnlinePlugin(const std::string& prefix)$/;"	f	class:inv::DyeingOnlinePlugin
+DyeingOnlinePlugin	./online_hash.h	/^class DyeingOnlinePlugin : public DyeingPlugin {$/;"	c	namespace:inv
+DyeingPlugin	./dyeing_plugin.h	/^    DyeingPlugin(const std::string& name)$/;"	f	class:inv::DyeingPlugin
+DyeingPlugin	./dyeing_plugin.h	/^class DyeingPlugin {$/;"	c	namespace:inv
+DyeingPushUserTypePlugin	./push_user_type.h	/^	explicit DyeingPushUserTypePlugin(const std::string& prefix)$/;"	f	class:inv::DyeingPushUserTypePlugin
+DyeingPushUserTypePlugin	./push_user_type.h	/^class DyeingPushUserTypePlugin {$/;"	c	namespace:inv
+DyeingWhiteListPlugin	./white_list.cc	/^DyeingWhiteListPlugin::DyeingWhiteListPlugin(const std::string& prefix)$/;"	f	class:inv::DyeingWhiteListPlugin
+DyeingWhiteListPlugin	./white_list.h	/^class DyeingWhiteListPlugin : public DyeingPlugin {$/;"	c	namespace:inv
+FetchMsg	./kafka_consumer.cc	/^int32_t KafkaConsumer::FetchMsg(std::string& msg)$/;"	f	class:KafkaConsumer
+FreshThread	./dyeing_handler.cc	/^    explicit FreshThread(ABDyeingHandler* owner, const std::string& fresh_hour)$/;"	f	class:inv::FreshThread
+FreshThread	./dyeing_handler.cc	/^class FreshThread : public INV_Thread {$/;"	c	namespace:inv	file:
+GetLastErrMsg	./kafka_consumer.h	/^        std::string GetLastErrMsg() const $/;"	f	class:KafkaConsumer
+Init	./kafka_consumer.cc	/^int32_t KafkaConsumer::Init()$/;"	f	class:KafkaConsumer
+KAFKA_CONSUMER_H	./kafka_consumer.h	2;"	d
+KafkaConsumer	./kafka_consumer.cc	/^KafkaConsumer::KafkaConsumer(const std::vector<std::pair<std::string, uint16_t> >& brokers,$/;"	f	class:KafkaConsumer
+KafkaConsumer	./kafka_consumer.h	/^class KafkaConsumer$/;"	c
+KafkaThread	./fresh_kafka.cc	/^    explicit KafkaThread(DyeingCurrentFresh* owner, const std::string& conf_path)$/;"	f	class:inv::KafkaThread
+KafkaThread	./fresh_kafka.cc	/^class KafkaThread : public INV_Thread {$/;"	c	namespace:inv	file:
+ParseProductPolicy	./online_hash.cc	/^bool DyeingOnlinePlugin::ParseProductPolicy(const std::string& business_type,$/;"	f	class:inv::DyeingOnlinePlugin
+Policy	./online_hash.h	/^    struct Policy {$/;"	s	class:inv::DyeingOnlinePlugin
+ProcessCostTimeMonitor	./ab_def.h	/^        ProcessCostTimeMonitor(const std::string& process_name)$/;"	f	class:inv::ProcessCostTimeMonitor
+ProcessCostTimeMonitor	./ab_def.h	/^class ProcessCostTimeMonitor {$/;"	c	namespace:inv
+RebalanceCb	./kafka_consumer.cc	/^void KafkaConsumer::RebalanceCb(rd_kafka_t *rk,$/;"	f	class:KafkaConsumer
+SetMap	./fresh_user.cc	/^bool DyeingFreshUserPlugin::SetMap(const std::string& uid) {$/;"	f	class:inv::DyeingFreshUserPlugin
+SetMap	./push_user_type.cc	/^void DyeingPushUserTypePlugin::SetMap(const std::string& uid,$/;"	f	class:inv::DyeingPushUserTypePlugin
+SingleDyeing	./dyeing_handler.cc	/^void ABDyeingHandler::SingleDyeing(inveno::ABDyeingUidRepInfo& uid_rep_info,$/;"	f	class:inv::ABDyeingHandler
+SingleLanDyeing	./dyeing_handler.cc	/^void ABDyeingHandler::SingleLanDyeing(inveno::ABDyeingUidRepInfo& uid_rep_info,$/;"	f	class:inv::ABDyeingHandler
+Thread	./dyeing_handler.cc	/^    explicit Thread(ABDyeingHandler* owner)$/;"	f	class:inv::Thread
+Thread	./dyeing_handler.cc	/^class Thread : public INV_Thread {$/;"	c	namespace:inv	file:
+TimeStampMs	./dyeing_logic.cc	/^std::chrono::time_point<std::chrono::high_resolution_clock> TimeStampMs() {$/;"	f	namespace:inv
+UserType	./push_user_type.h	/^    struct UserType {$/;"	s	class:inv::DyeingPushUserTypePlugin
+_conf_path	./fresh_kafka.cc	/^	std::string _conf_path;$/;"	m	class:inv::KafkaThread	file:
+_db	./fresh_user.h	/^	INV_Mysql _db;$/;"	m	class:inv::DyeingFreshUserPlugin
+_db	./push_user_type.h	/^	INV_Mysql _db;$/;"	m	class:inv::DyeingPushUserTypePlugin
+_flush_fresh_user_thread	./dyeing_handler.h	/^    std::unique_ptr<INV_Thread> _flush_fresh_user_thread;$/;"	m	class:inv::ABDyeingHandler
+_flush_thread	./dyeing_handler.h	/^    std::unique_ptr<INV_Thread> _flush_thread;$/;"	m	class:inv::ABDyeingHandler
+_fresh_current_list	./dyeing_handler.h	/^	std::unique_ptr<DyeingCurrentFresh> _fresh_current_list;$/;"	m	class:inv::ABDyeingHandler
+_fresh_hour	./dyeing_handler.cc	/^	std::string _fresh_hour;$/;"	m	class:inv::FreshThread	file:
+_fresh_hour	./dyeing_handler.h	/^    std::string _fresh_hour;$/;"	m	class:inv::ABDyeingHandler
+_fresh_hour	./fresh_kafka.cc	/^	std::string _fresh_hour;$/;"	m	class:inv::ClearThread	file:
+_fresh_prefix	./dyeing_handler.h	/^    std::string _fresh_prefix;$/;"	m	class:inv::ABDyeingHandler
+_fresh_product_suffix	./dyeing_logic.h	/^	std::string _fresh_product_suffix;$/;"	m	class:inv::DyeingLogic
+_fresh_tags	./dyeing_handler.cc	/^	bool _fresh_tags;$/;"	m	class:inv::FreshThread	file:
+_fresh_tags	./fresh_kafka.cc	/^	bool _fresh_tags;$/;"	m	class:inv::ClearThread	file:
+_fresh_user	./dyeing_handler.h	/^    boost::shared_ptr<DyeingFreshUserPlugin> _fresh_user;$/;"	m	class:inv::ABDyeingHandler
+_init_mysql	./dyeing_handler.cc	/^	bool _init_mysql;$/;"	m	class:inv::FreshThread	file:
+_kafka_clear_thread	./fresh_kafka.h	/^		std::unique_ptr<INV_Thread> _kafka_clear_thread;$/;"	m	class:inv::DyeingCurrentFresh
+_kafka_rec_thread	./fresh_kafka.h	/^		std::unique_ptr<INV_Thread> _kafka_rec_thread;$/;"	m	class:inv::DyeingCurrentFresh
+_kmq	./dyeing_handler.h	/^	kafkaFreshQueue _kmq;$/;"	m	class:inv::ABDyeingHandler
+_kmq	./dyeing_logic.h	/^    kafkaFreshQueue* _kmq;$/;"	m	class:inv::DyeingLogic
+_kmq	./fresh_kafka.h	/^		kafkaFreshQueue* _kmq;$/;"	m	class:inv::DyeingCurrentFresh
+_kmsg	./fresh_kafka.h	/^		std::unordered_map<std::string, uint64_t> _kmsg;$/;"	m	class:inv::DyeingCurrentFresh
+_kmsg_mutex	./fresh_kafka.h	/^		INV_ThreadRWLocker _kmsg_mutex;$/;"	m	class:inv::DyeingCurrentFresh
+_logics	./dyeing_handler.h	/^    std::map<pthread_t, boost::shared_ptr<DyeingLogic> > _logics;$/;"	m	class:inv::ABDyeingHandler
+_map	./fresh_user.h	/^	std::unordered_map<std::string, uint64_t> _map;$/;"	m	class:inv::DyeingFreshUserPlugin
+_map	./white_list.h	/^    std::unordered_map<std::string, std::unordered_map<std::string, std::string>> _map;$/;"	m	class:inv::DyeingWhiteListPlugin
+_name	./dyeing_plugin.h	/^    const std::string _name;$/;"	m	class:inv::DyeingPlugin
+_online_plugin	./dyeing_handler.h	/^    boost::shared_ptr<DyeingOnlinePlugin> _online_plugin;$/;"	m	class:inv::ABDyeingHandler
+_online_prefix	./dyeing_handler.h	/^    std::string _online_prefix;$/;"	m	class:inv::ABDyeingHandler
+_owner	./dyeing_handler.cc	/^    ABDyeingHandler* _owner;$/;"	m	class:inv::FreshThread	file:
+_owner	./dyeing_handler.cc	/^    ABDyeingHandler* _owner;$/;"	m	class:inv::Thread	file:
+_owner	./dyeing_logic.h	/^    ABDyeingHandler* _owner;$/;"	m	class:inv::DyeingLogic
+_owner	./fresh_kafka.cc	/^    DyeingCurrentFresh* _owner;$/;"	m	class:inv::ClearThread	file:
+_owner	./fresh_kafka.cc	/^    DyeingCurrentFresh* _owner;$/;"	m	class:inv::KafkaThread	file:
+_policy_map	./online_hash.h	/^        std::unordered_map<std::string, std::shared_ptr<Policy>>>_policy_map;$/;"	m	class:inv::DyeingOnlinePlugin
+_prefix	./fresh_user.h	/^    std::string _prefix;$/;"	m	class:inv::DyeingFreshUserPlugin
+_prefix	./online_hash.h	/^    const std::string _prefix;$/;"	m	class:inv::DyeingOnlinePlugin
+_prefix	./push_user_type.h	/^    std::string _prefix;$/;"	m	class:inv::DyeingPushUserTypePlugin
+_prefix	./white_list.h	/^    const std::string _prefix;$/;"	m	class:inv::DyeingWhiteListPlugin
+_push_user	./dyeing_handler.h	/^    boost::shared_ptr<DyeingPushUserTypePlugin> _push_user;$/;"	m	class:inv::ABDyeingHandler
+_qconf	./dyeing_logic.h	/^    std::unique_ptr<INV_QConfig> _qconf;$/;"	m	class:inv::DyeingLogic
+_time_kmsg	./fresh_kafka.h	/^		std::map<uint64_t, std::string> _time_kmsg;$/;"	m	class:inv::DyeingCurrentFresh
+_types	./dyeing_handler.h	/^    std::vector<std::string> _types;$/;"	m	class:inv::ABDyeingHandler
+_user_type_map	./push_user_type.h	/^	std::unordered_map<std::string, std::shared_ptr<UserType>> _user_type_map;$/;"	m	class:inv::DyeingPushUserTypePlugin
+_white_list	./dyeing_handler.h	/^    boost::shared_ptr<DyeingWhiteListPlugin> _white_list;$/;"	m	class:inv::ABDyeingHandler
+_white_prefix	./dyeing_handler.h	/^    std::string _white_prefix;$/;"	m	class:inv::ABDyeingHandler
+brokers_	./kafka_consumer.h	/^        std::vector<std::pair<std::string, uint16_t> > brokers_;$/;"	m	class:KafkaConsumer
+clear	./fresh_kafka.cc	/^void DyeingCurrentFresh::clear() {$/;"	f	class:inv::DyeingCurrentFresh
+conf_	./kafka_consumer.h	/^        rd_kafka_conf_t* conf_;$/;"	m	class:KafkaConsumer
+conf_id	./online_hash.h	/^        std::string conf_id;$/;"	m	struct:inv::DyeingOnlinePlugin::ConfIdInfo
+conf_id_infos	./online_hash.h	/^        std::vector<ConfIdInfo> conf_id_infos;$/;"	m	struct:inv::DyeingOnlinePlugin::Policy
+dyeing	./dyeing_handler.cc	/^void ABDyeingHandler::dyeing(inveno::ABDyeingReply& reply,$/;"	f	class:inv::ABDyeingHandler
+end_id	./online_hash.h	/^        uint32 end_id;   $/;"	m	struct:inv::DyeingOnlinePlugin::ConfIdInfo
+err_	./kafka_consumer.h	/^        rd_kafka_resp_err_t err_;$/;"	m	class:KafkaConsumer
+errmsg_	./kafka_consumer.h	/^        std::string errmsg_;$/;"	m	class:KafkaConsumer
+flushFreshUser	./fresh_user.cc	/^bool DyeingFreshUserPlugin::flushFreshUser() {$/;"	f	class:inv::DyeingFreshUserPlugin
+flushFreshUserPolicy	./dyeing_handler.cc	/^void ABDyeingHandler::flushFreshUserPolicy() {$/;"	f	class:inv::ABDyeingHandler
+flushPolicy	./dyeing_handler.cc	/^void ABDyeingHandler::flushPolicy() {$/;"	f	class:inv::ABDyeingHandler
+flushPushUserType	./push_user_type.cc	/^bool DyeingPushUserTypePlugin::flushPushUserType() {$/;"	f	class:inv::DyeingPushUserTypePlugin
+get	./fresh_user.cc	/^bool DyeingFreshUserPlugin::get(const std::string& uid, const std::string& app, $/;"	f	class:inv::DyeingFreshUserPlugin
+get	./online_hash.cc	/^bool DyeingOnlinePlugin::get(const std::string& uid, const std::string& app,$/;"	f	class:inv::DyeingOnlinePlugin
+get	./push_user_type.cc	/^bool DyeingPushUserTypePlugin::get(const std::string& uid, const std::string& app, $/;"	f	class:inv::DyeingPushUserTypePlugin
+get	./white_list.h	/^    virtual bool get(const std::string& uid, const std::string& app, $/;"	f	class:inv::DyeingWhiteListPlugin
+getAbTimeOfHour	./dyeing_handler.cc	/^	std::string getAbTimeOfHour(bool now) {$/;"	f	class:inv::FreshThread
+getAbTimeOfHour	./fresh_kafka.cc	/^	std::string getAbTimeOfHour(bool now) {$/;"	f	class:inv::ClearThread
+getFreshUser	./dyeing_handler.h	/^    boost::shared_ptr<DyeingFreshUserPlugin> getFreshUser() const {$/;"	f	class:inv::ABDyeingHandler
+getLogic	./dyeing_handler.h	/^    boost::shared_ptr<DyeingLogic> getLogic() const {$/;"	f	class:inv::ABDyeingHandler
+getOnline	./dyeing_handler.h	/^    boost::shared_ptr<DyeingOnlinePlugin> getOnline() const {$/;"	f	class:inv::ABDyeingHandler
+getPushUser	./dyeing_handler.h	/^    boost::shared_ptr<DyeingPushUserTypePlugin> getPushUser() const {$/;"	f	class:inv::ABDyeingHandler
+getWhiteList	./dyeing_handler.h	/^    boost::shared_ptr<DyeingWhiteListPlugin> getWhiteList() const {$/;"	f	class:inv::ABDyeingHandler
+getsize	./fresh_user.cc	/^uint64_t DyeingFreshUserPlugin::getsize(){$/;"	f	class:inv::DyeingFreshUserPlugin
+getsize	./push_user_type.cc	/^uint64_t DyeingPushUserTypePlugin::getsize(){$/;"	f	class:inv::DyeingPushUserTypePlugin
+group_	./kafka_consumer.h	/^        std::string group_;$/;"	m	class:KafkaConsumer
+handleFreshUser	./dyeing_logic.cc	/^int DyeingLogic::handleFreshUser(const std::string& uid,$/;"	f	class:inv::DyeingLogic
+handleOnlineHash	./dyeing_logic.cc	/^bool DyeingLogic::handleOnlineHash(const std::string& uid,$/;"	f	class:inv::DyeingLogic
+handlePushUser	./dyeing_logic.cc	/^bool DyeingLogic::handlePushUser(const std::string& uid,$/;"	f	class:inv::DyeingLogic
+handleWhiteList	./dyeing_logic.cc	/^bool DyeingLogic::handleWhiteList(const std::string& uid,$/;"	f	class:inv::DyeingLogic
+init	./dyeing_handler.cc	/^void ABDyeingHandler::init(const std::string& conf_path) {$/;"	f	class:inv::ABDyeingHandler
+init	./dyeing_logic.cc	/^bool DyeingLogic::init(const std::string& conf_path) {$/;"	f	class:inv::DyeingLogic
+init	./fresh_kafka.cc	/^bool DyeingCurrentFresh::init(const std::string& conf_path)$/;"	f	class:inv::DyeingCurrentFresh
+inited_	./kafka_consumer.h	/^        bool inited_;$/;"	m	class:KafkaConsumer
+inv	./ab_def.h	/^namespace inv {$/;"	n
+inv	./dyeing_handler.cc	/^namespace inv {$/;"	n	file:
+inv	./dyeing_handler.h	/^namespace inv {$/;"	n
+inv	./dyeing_logic.cc	/^namespace inv {$/;"	n	file:
+inv	./dyeing_logic.h	/^namespace inv {$/;"	n
+inv	./dyeing_plugin.h	/^namespace inv {$/;"	n
+inv	./fresh_kafka.cc	/^namespace inv{$/;"	n	file:
+inv	./fresh_kafka.h	/^namespace inv{$/;"	n
+inv	./fresh_user.cc	/^namespace inv {$/;"	n	file:
+inv	./fresh_user.h	/^namespace inv{$/;"	n
+inv	./online_hash.cc	/^namespace inv {$/;"	n	file:
+inv	./online_hash.h	/^namespace inv {$/;"	n
+inv	./push_user_type.cc	/^namespace inv {$/;"	n	file:
+inv	./push_user_type.h	/^namespace inv{$/;"	n
+inv	./white_list.cc	/^namespace inv {$/;"	n	file:
+inv	./white_list.h	/^namespace inv {$/;"	n
+inveno	./dyeing_logic.h	/^namespace inveno {$/;"	n
+kafkaFreshQueue	./ab_def.h	/^struct kafkaFreshQueue$/;"	s	namespace:inv
+kq	./ab_def.h	/^	std::unordered_map<std::string, uint64_t> kq;$/;"	m	struct:inv::kafkaFreshQueue
+loadConfig	./online_hash.cc	/^bool DyeingOnlinePlugin::loadConfig(const std::vector<string>& business_types) {$/;"	f	class:inv::DyeingOnlinePlugin
+loadConfig	./white_list.cc	/^bool DyeingWhiteListPlugin::loadConfig(const std::vector<std::string>& business_types) {$/;"	f	class:inv::DyeingWhiteListPlugin
+loadInternal	./online_hash.cc	/^bool DyeingOnlinePlugin::loadInternal(const std::string& business_type) {$/;"	f	class:inv::DyeingOnlinePlugin
+loadInternal	./white_list.cc	/^bool DyeingWhiteListPlugin::loadInternal(const std::string& business_type) {$/;"	f	class:inv::DyeingWhiteListPlugin
+loadbase	./fresh_kafka.cc	/^	void loadbase(std::vector<std::pair<std::string, uint16_t> >& brokers,$/;"	f	class:inv::KafkaThread
+lock	./ab_def.h	/^    INV_ThreadRWLocker lock;$/;"	m	struct:inv::kafkaFreshQueue
+main	./main.cc	/^int main(int argc, char **argv) {$/;"	f
+onDyeing	./dyeing_logic.cc	/^bool DyeingLogic::onDyeing(const std::string& uid, const std::string& app,$/;"	f	class:inv::DyeingLogic
+prefix	./online_hash.h	/^        std::string prefix;$/;"	m	struct:inv::DyeingOnlinePlugin::Policy
+process_name_	./ab_def.h	/^        std::string process_name_;$/;"	m	class:inv::ProcessCostTimeMonitor
+processkafka	./fresh_kafka.cc	/^	void processkafka(std::string& msg) {$/;"	f	class:inv::KafkaThread
+pushConf	./white_list.h	/^    void pushConf(const std::string& business_type, const std::string& k, const std::string& v) {$/;"	f	class:inv::DyeingWhiteListPlugin
+rk_	./kafka_consumer.h	/^        rd_kafka_t* rk_;$/;"	m	class:KafkaConsumer
+run	./dyeing_handler.cc	/^    virtual void run() {$/;"	f	class:inv::FreshThread
+run	./dyeing_handler.cc	/^    virtual void run() {$/;"	f	class:inv::Thread
+run	./fresh_kafka.cc	/^    virtual void run() {$/;"	f	class:inv::ClearThread
+run	./fresh_kafka.cc	/^    virtual void run() {$/;"	f	class:inv::KafkaThread
+seed	./online_hash.h	/^        uint32 seed;$/;"	m	struct:inv::DyeingOnlinePlugin::Policy
+set	./fresh_kafka.cc	/^void DyeingCurrentFresh::set(std::string& uid)$/;"	f	class:inv::DyeingCurrentFresh
+start_id	./online_hash.h	/^        uint32 start_id;$/;"	m	struct:inv::DyeingOnlinePlugin::ConfIdInfo
+stop	./dyeing_handler.cc	/^    void stop() {$/;"	f	class:inv::FreshThread
+stop	./dyeing_handler.cc	/^    void stop() {$/;"	f	class:inv::Thread
+stop	./fresh_kafka.cc	/^    void stop() {$/;"	f	class:inv::ClearThread
+stop	./fresh_kafka.cc	/^    void stop() {$/;"	f	class:inv::KafkaThread
+thrift_threads	./dyeing_handler.cc	/^std::vector<boost::shared_ptr<apache::thrift::concurrency::Thread> > INVThreadFactory::thrift_threads;$/;"	m	class:inv::INVThreadFactory	file:
+time_begin_	./ab_def.h	/^        std::chrono::time_point<std::chrono::high_resolution_clock> time_begin_;$/;"	m	class:inv::ProcessCostTimeMonitor
+timestamp	./push_user_type.h	/^        uint64_t    timestamp;$/;"	m	struct:inv::DyeingPushUserTypePlugin::UserType
+toEntry	./dyeing_logic.cc	/^inveno::ABDyeingEntry toEntry(std::string type, const std::string& config_id) {$/;"	f	namespace:__anon1
+topic_	./kafka_consumer.h	/^        std::string topic_;$/;"	m	class:KafkaConsumer
+topic_conf_	./kafka_consumer.h	/^        rd_kafka_topic_conf_t* topic_conf_;$/;"	m	class:KafkaConsumer
+topics_	./kafka_consumer.h	/^        rd_kafka_topic_partition_list_t* topics_;$/;"	m	class:KafkaConsumer
+uint16	./ab_def.h	/^typedef uint16_t uint16;$/;"	t
+uint32	./ab_def.h	/^typedef uint32_t uint32;$/;"	t
+uint8	./ab_def.h	/^typedef uint8_t uint8;$/;"	t
+user_type	./push_user_type.h	/^        std::string user_type;$/;"	m	struct:inv::DyeingPushUserTypePlugin::UserType
+~ABDyeingHandler	./dyeing_handler.cc	/^ABDyeingHandler::~ABDyeingHandler() {$/;"	f	class:inv::ABDyeingHandler
+~ClearThread	./fresh_kafka.cc	/^    virtual ~ClearThread() {$/;"	f	class:inv::ClearThread
+~DyeingLogic	./dyeing_logic.cc	/^DyeingLogic::~DyeingLogic() {$/;"	f	class:inv::DyeingLogic
+~DyeingOnlinePlugin	./online_hash.cc	/^DyeingOnlinePlugin::~DyeingOnlinePlugin() {$/;"	f	class:inv::DyeingOnlinePlugin
+~FreshThread	./dyeing_handler.cc	/^    virtual ~FreshThread() {$/;"	f	class:inv::FreshThread
+~KafkaConsumer	./kafka_consumer.cc	/^KafkaConsumer::~KafkaConsumer()$/;"	f	class:KafkaConsumer
+~KafkaThread	./fresh_kafka.cc	/^    virtual ~KafkaThread() {$/;"	f	class:inv::KafkaThread
+~ProcessCostTimeMonitor	./ab_def.h	/^        ~ProcessCostTimeMonitor() {$/;"	f	class:inv::ProcessCostTimeMonitor
+~Thread	./dyeing_handler.cc	/^    virtual ~Thread() {$/;"	f	class:inv::Thread
