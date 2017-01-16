@@ -33,18 +33,29 @@ sys.path.append('gen-py')
 import unittest
 
 from thrift import Thrift
+
 from thrift.transport import TSocket
+
 from thrift.transport import TTransport
+
 from thrift.protocol import TBinaryProtocol
+
 from thrift.protocol import TCompactProtocol
+
 from thrift.transport.TTransport import TMemoryBuffer
 
+
 from thrift import TSerialization
+
 from thrift.TSerialization import deserialize
+
 from thrift.TSerialization import serialize
 
+
 from ab_dyeing import *
+
 from ab_dyeing.ttypes import *
+
 
 def SerializeThriftMsg(msg, protocol_type=TBinaryProtocol.TBinaryProtocol):
   msg.validate()
