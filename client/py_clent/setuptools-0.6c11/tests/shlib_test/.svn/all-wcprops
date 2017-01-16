@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/setuptools-0.6c11/tests/shlib_test
+END
+hello.pyx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/setuptools-0.6c11/tests/shlib_test/hello.pyx
+END
+hello.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/setuptools-0.6c11/tests/shlib_test/hello.c
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/setuptools-0.6c11/tests/shlib_test/setup.py
+END
+test_hello.py
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/setuptools-0.6c11/tests/shlib_test/test_hello.py
+END
+hellolib.c
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/setuptools-0.6c11/tests/shlib_test/hellolib.c
+END

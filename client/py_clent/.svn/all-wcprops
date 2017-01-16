@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/zhizi/!svn/ver/5466/trunk/server/ab_dyeing/client/py_clent
+END
+ab_dyeing.thrift
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/zhizi/!svn/ver/5466/trunk/server/ab_dyeing/client/py_clent/ab_dyeing.thrift
+END
+gen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/gen.sh
+END
+test_clien.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/zhizi/!svn/ver/5466/trunk/server/ab_dyeing/client/py_clent/test_clien.sh
+END
+ab_dyeing_client.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/zhizi/!svn/ver/5466/trunk/server/ab_dyeing/client/py_clent/ab_dyeing_client.py
+END
+setuptools-0.6c11.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/zhizi/!svn/ver/3521/trunk/server/ab_dyeing/client/py_clent/setuptools-0.6c11.tar.gz
+END
+test_clien_press.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/zhizi/!svn/ver/3629/trunk/server/ab_dyeing/client/py_clent/test_clien_press.sh
+END
