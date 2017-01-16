@@ -13,7 +13,8 @@ client采用py_unit进行编写，编译进行单元测试。
 
 协议如下rpc如下：
 service ABDyeingService {
-	ABDyeingReply dyeing(1:string uid, 2:ABDyeingRequest req),
+
+    ABDyeingReply dyeing(1:string uid, 2:ABDyeingRequest req),
 	
     ABDyeingReply DyeingLan(1:string uid, 2:ABDyeingLanRequest req),
 
